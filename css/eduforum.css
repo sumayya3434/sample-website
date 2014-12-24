@@ -1,0 +1,207 @@
+@font-face{
+	font-family: myfont;
+	src:url(font/myfont.ttf);
+}
+header
+{
+	height:233px;
+	/*background-color: #06213F;*/
+	width: 100%;
+}
+
+.topList
+{
+    float:right; 
+	width:148px;
+	height: 50px;
+}
+.topLink
+{
+	float:left;
+	color:white; 
+	font-size:15px;
+	font-family: myfont;
+	text-decoration:none;
+	text-align: center;
+	border-right: solid 3px white;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+a:hover {
+    color:green ;
+} 
+.headerLeft
+{
+  margin-left: 30px;
+  float: left;
+  margin-top:50px;
+ 
+}
+.headerRight
+{
+	float:right;
+}
+.siteName
+{
+	float: right;
+	font-family: myfont;
+	color:white; 
+}
+body
+{
+	background: -moz-linear-gradient(#06213F,#FFFFFF);
+	background-repeat: no-repeat ;
+	min-height: 700px;
+}
+.searchBox
+{
+    margin-top: 0px;
+   float: right;
+    margin-right: 20px;
+}
+.textBox
+{
+   width: 200px;
+   height: 25px;
+   border: 1px solid white;
+   border-radius: 8px;
+}
+.searchButton
+{
+   width: 84px;
+   height: 28px;
+   border: 1px solid white;
+   border-radius: 8px;
+   color:#06213F ;
+}
+.middleList
+{
+	width:1157px;
+	height: 50px;
+	border-radius: 8px;
+	background-color: white;
+	float: left;
+	margin-left: 71px;
+	margin-top: 20px;
+
+}
+.middleLink
+{
+	margin-left: 40px;
+	margin-right: 30px;
+	color:black; 
+	font-size:16px;
+	font-family: myfont;
+	text-decoration:none;
+	text-align: center;
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer
+{
+  margin-top: 43px;
+  height: 200px;
+  width: 1157px;
+  margin-left: 71px !important;
+  border: 3px solid white;
+  border-radius: 8px;
+  margin-bottom: 76px;
+}
+.firstFooter
+{
+	float: left;
+	width:300px;
+    padding: 20px;
+    border-right: 3px solid white;
+}
+.bottomLink
+{
+	text-decoration:none;
+	color:#06213F;
+	font-family: myfont; 
+}
+.middleFooter
+{
+	float: left;
+	width:300px;
+    padding: 20px;
+    border-right: 3px solid white;
+}
+.footerAddress
+{
+	color:#06213F;
+	font-family: myfont; 
+
+}
+.lastFooter
+{
+    float: left;
+	width:300px;
+    padding: 20px;
+    	
+}
+.lastFooterHeading
+{
+	color:#06213F;
+	font-family: myfont; 
+}
+#fb
+{
+	background : url(sprite.png) 352px 320px;
+}
+#twt
+{
+	background: url(sprite.png) 309px 320px;
+}
+#gp
+{
+	background: url(sprite.png) 266px 320px;
+}
+#t
+{
+	background: url(sprite.png) 395px 320px;
+}
+.socialIcon
+{
+	width: 46px;
+	height: 40px;
+}
+
+.form
+{
+	width:80%;
+	margin-top: 31px; 
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-left: 71px;
+    margin-right: auto;
+    height: 390px;
+}
+.dv
+{
+	
+    margin-top: 50px;
+    margin-left: 403px;
+ 	/*text-align:center;*/
+    padding:5px;
+    font-family: myfont;
+    
+}
+.register{
+	margin-bottom: 30px;
+}
+.dbutton{
+	width: 230px;
+}
+h5
+{
+	font-family: myfont;
+	text-align: center;
+}
+td
+{
+	height: 47px;
+}
