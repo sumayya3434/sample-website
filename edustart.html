@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>edusite</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="css/normalise.css" rel="stylesheet" type="text/css">
     <link href="css/edustart.css" rel="stylesheet" type="text/css">
 </head>
@@ -17,16 +18,16 @@
 		</nav>
 		<div class="searchBox">
 				<input class="textBox" type="text" placeholder ="search...">
-                <input class="searchButton" type="button" value="search">
+                <input class="searchButton" type="image" src="images/search.png">
         </div>
         </div>
 	    <div class="headerLeft">
-	    	<img class="logo" src="images/logo1.png" alt="logo" height="100" width="120">
+	    	<img class="logo" src="images/logo1.png" alt="logo">
 			<h1 class="siteName">SpeakEasy.com</h1>
 		</div>
 		<div class="middleList">
-		<nav>
-			<ul>
+		<nav class="mainMenu" style="float:left;width:100%">
+			<ul >
 				<li><a class="middleLink" href="edustart.html">HOME</a></li>
 				<li><a class="middleLink" href="eduforum.html">FORUM</a></li>
 				<li><a class="middleLink" href="edustudy.html">STUDY MATERIALS</a></li>	
@@ -34,11 +35,13 @@
 				<li><a class="middleLink" href="">CONTACT US</a></li>
 				<li><a class="middleLink" href="">FAQ</a></li>
 			</ul>
+			<a id="hiddenMenu" href="">MENU</a>
 		</nav>
 		</div>
+		
 	</header>
 	<section>
-		<img class="backgroundImage" src="images/background.jpg" alt="logo" height="600" width="1157">
+		<img class="backgroundImage" src="images/background.jpg" alt="logo">
 		<p class="mainContent">
          Learn English online with the help of this free website from the Indian Council with games, stories, listening activities and grammar exercises. You can search for your favourites or have a look at the site map to find out where everything is.
         </p>
@@ -47,8 +50,9 @@
 	</section>	
 	<footer>
 		<div class="firstFooter">
-			<img class="footerImage" src="images/map.png" alt="footimage" height="100" width="300">
-			<a class="bottomLink" href="">Find Us with Google Map >></a>
+			<div>
+			<img class="footerImage" src="images/map.png" alt="footimage" height="100" width="300"></div>
+			<div><a class="bottomLink" href="">Find Us with Google Map >></a></div>
 		 </div>
 		<div class="middleFooter">
 			<p class="footerAddress">SpeakEasy Study Center<br>

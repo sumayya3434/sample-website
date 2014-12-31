@@ -51,6 +51,9 @@ a:hover {
 body
 {
 	background: -moz-linear-gradient(#06213F,#FFFFFF);
+	background: -webkit-linear-gradient(#06213F,#FFFFFF);
+	background: -o-linear-gradient(#06213F,#FFFFFF );
+	background: linear-gradient(#06213F,#FFFFFF);
 	background-repeat: no-repeat ;
 	min-height: 700px;
 }
@@ -173,19 +176,19 @@ footer
 }
 #fb
 {
-	background : url(sprite.png) 352px 320px;
+	background : url(../images/sprite.png) 352px 320px;
 }
 #twt
 {
-	background: url(sprite.png) 309px 320px;
+	background: url(../images/sprite.png) 309px 320px;
 }
 #gp
 {
-	background: url(sprite.png) 266px 320px;
+	background: url(../images/sprite.png) 266px 320px;
 }
 #t
 {
-	background: url(sprite.png) 395px 320px;
+	background: url(../images/sprite.png) 395px 320px;
 }
 .socialIcon
 {
