@@ -13,13 +13,17 @@ function formValidation()
 {
     var name = document.regform.user;
     var telno = document.regform.telno;
+    var email = document.regform.email;
     if(usernameValidation(name,5,12))
     {
-    	if(telValidation(tel))
-        {
+    	if(validateEmail(email))
+    	{
+    	 if(telValidation(tel))
+         {
         	
-    	 return true;
-        }
+    	  return true;
+         }
+        } 
     }
     else
     {
@@ -55,4 +59,18 @@ function telValidation(telno)
 	}
 	return true;
 }
+function validateEmail(email)  
+{  
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+if(email.value.match(mailformat))  
+{  
+return true;  
+}  
+else  
+{  
+alert("You have entered an invalid email address!");  
+email.focus();  
+return false;  
+}  
+}  
 

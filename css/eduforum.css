@@ -107,7 +107,7 @@ footer
 {
   margin-top: 43px;
   height: 200px;
-  width: 1157px;
+  width: 89%;
   margin-left: 71px !important;
   border: 3px solid white;
   border-radius: 8px;
@@ -175,7 +175,7 @@ footer
 
 .form
 {
-	width:80%;
+	width:89%;
 	margin-top: 31px; 
     border: 3px solid white;
     border-radius: 8px;

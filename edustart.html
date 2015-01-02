@@ -8,26 +8,29 @@
 </head>
 <body>
 	<header>
-		<div class="headerRight">
-		<nav>
-			<ul class="topList">
-				
-				<li><a class="topLink" href="">Login</a></li>	
-				<li><a class="topLink" style="border:none;" href="">SignUp</a></li>
-			</ul>
-		</nav>
-		<div class="searchBox">
-				<input class="textBox" type="text" placeholder ="search...">
-                <input class="searchButton" type="image" src="images/search.png">
-        </div>
-        </div>
-	    <div class="headerLeft">
+		<div class="headerLeft">
 	    	<img class="logo" src="images/logo1.png" alt="logo">
 			<h1 class="siteName">SpeakEasy.com</h1>
 		</div>
+		<div class="headerRight">
+			<nav>
+				<ul class="topList">
+					
+					<li><a class="topLink" href="">Login</a></li>	
+					<li><a class="topLink" style="border:none;" href="">SignUp</a></li>
+				</ul>
+			</nav>
+			<div class="searchBox">
+					<input class="textBox" type="text" placeholder ="search...">
+	                <input class="searchButton" type="image" src="images/search.png">
+	        </div>
+        </div>
+	    
+		
 		<div class="middleList">
 		<nav class="mainMenu" style="float:left;width:100%">
-			<ul >
+           <button id="button" value="menu">MENU</button>
+			<ul id="menuList" >
 				<li><a class="middleLink" href="edustart.html">HOME</a></li>
 				<li><a class="middleLink" href="eduforum.html">FORUM</a></li>
 				<li><a class="middleLink" href="edustudy.html">STUDY MATERIALS</a></li>	
@@ -35,10 +38,9 @@
 				<li><a class="middleLink" href="">CONTACT US</a></li>
 				<li><a class="middleLink" href="">FAQ</a></li>
 			</ul>
-			<a id="hiddenMenu" href="">MENU</a>
 		</nav>
-		</div>
-		
+	    </div>
+       
 	</header>
 	<section>
 		<img class="backgroundImage" src="images/background.jpg" alt="logo">
@@ -68,6 +70,13 @@
 			<a href=""><img class="socialIcon" id="t" src="images/img-trans.png"></a>
 		</div>  
 	</footer>
-
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#button").click(function(){
+    $("#menuList").toggle();
+  });
+});
+</script>
 </body>
 </html>
